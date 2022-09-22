@@ -28,6 +28,8 @@ private const val html =
          body { background: transparent; margin: 0; }
          .katex-display { margin: 0; }
          .katex-html > .tag { position: unset !important; padding-left: 2em; }
+         .katex-html { padding-top:2px; }
+         .katex { font-size: 16.94px; }
          #math { float: left; }
         </style>
     </head>
@@ -96,6 +98,7 @@ class TexRenderer(private val context: Context) : CoroutineScope by MainScope() 
             addJavascriptInterface(this@TexRenderer, "TexRenderer")
             // Size cannot be 0x0, but 1x1 works
             layout(0, 0, 1, 1)
+            settings.textZoom = 100
             setBackgroundColor(Color.TRANSPARENT)
         }
     }

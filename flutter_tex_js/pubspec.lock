@@ -63,23 +63,23 @@ packages:
   flutter_tex_js_android:
     dependency: "direct main"
     description:
-      name: flutter_tex_js_android
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
+      path: "../flutter_tex_js_android"
+      relative: true
+    source: path
+    version: "1.0.5"
   flutter_tex_js_ios:
     dependency: "direct main"
     description:
-      name: flutter_tex_js_ios
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
+      path: "../flutter_tex_js_ios"
+      relative: true
+    source: path
+    version: "1.0.5"
   flutter_tex_js_platform_interface:
     dependency: "direct main"
     description:
-      name: flutter_tex_js_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../flutter_tex_js_platform_interface"
+      relative: true
+    source: path
     version: "1.0.0"
   lints:
     dependency: transitive
