@@ -29,7 +29,7 @@ private const val html =
          .katex-display { margin: 0; }
          .katex-html > .tag { position: unset !important; padding-left: 2em; }
          .katex-html { padding-top:2px; }
-         .katex { font-size: 16.94px; }
+         .katex { font-size: 33.88px; }
          #math { float: left; }
         </style>
     </head>

@@ -65,7 +65,7 @@ packages:
     description:
       path: flutter_tex_js_platform_interface
       ref: HEAD
-      resolved-ref: edb58ab37b04ca6c5685a4ae28d5f30f4324e24d
+      resolved-ref: "66d0c2bb50348f17d4ff8ebe591aa3b3945c0871"
       url: "https://github.com/GoodOnuii-M/flutter_tex_js"
     source: git
     version: "1.0.0"

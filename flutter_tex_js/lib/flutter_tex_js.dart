@@ -247,7 +247,7 @@ class _TexImageState extends State<TexImage>
               return Image.memory(
                 snapshot.data!,
                 alignment: widget.alignment,
-                scale: MediaQuery.of(context).devicePixelRatio,
+                scale: MediaQuery.of(context).devicePixelRatio * 2,
               );
             } else if (snapshot.hasError) {
               return _buildErrorWidget(snapshot.error!);
