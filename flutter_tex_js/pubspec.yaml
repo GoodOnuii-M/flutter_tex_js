@@ -20,6 +20,12 @@ dependencies:
     git:
       url: https://github.com/GoodOnuii-M/flutter_tex_js
       path: flutter_tex_js_ios
+  flutter_tex_js_macos:
+    # path: ../flutter_tex_js_macos
+    git:
+      url: https://github.com/GoodOnuii-M/flutter_tex_js
+      path: flutter_tex_js_macos
+
   flutter_tex_js_platform_interface:
     # path: ../flutter_tex_js_platform_interface
     git:
@@ -38,3 +44,5 @@ flutter:
         default_package: flutter_tex_js_android
       ios:
         default_package: flutter_tex_js_ios
+      macos:
+        default_package: flutter_tex_js_macos

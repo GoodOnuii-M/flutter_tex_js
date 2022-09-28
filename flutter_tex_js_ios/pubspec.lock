@@ -63,11 +63,9 @@ packages:
   flutter_tex_js_platform_interface:
     dependency: "direct main"
     description:
-      path: flutter_tex_js_platform_interface
-      ref: HEAD
-      resolved-ref: "66d0c2bb50348f17d4ff8ebe591aa3b3945c0871"
-      url: "https://github.com/GoodOnuii-M/flutter_tex_js"
-    source: git
+      path: "../flutter_tex_js_platform_interface"
+      relative: true
+    source: path
     version: "1.0.0"
   lints:
     dependency: transitive
