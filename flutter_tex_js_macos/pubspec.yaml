@@ -14,7 +14,7 @@ dependencies:
   flutter_tex_js_platform_interface:
     # path: ../flutter_tex_js_platform_interface
     git:
-      url: https://github.com/GoodOnuii-M/flutter_tex_js
+      url: https://github.com/GoodOnuii/flutter_tex_js
       path: flutter_tex_js_platform_interface
 
 dev_dependencies:
